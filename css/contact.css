@@ -1,0 +1,265 @@
+
+body {
+    background-color: rgb(247, 215, 220);
+    margin-bottom: 0px;
+    text-align: center;
+    font-family:'Playfair Display', serif;
+}
+.Title {
+    font-family: 'Playfair Display', serif; 
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #a78071;
+    border: 10px solid #a78071;
+    padding: 0px;
+    border-image: url(../images/) 25 round;
+    border-width: 20px;
+}
+.Subtitle{
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px;
+    
+}
+/*-----Navigation---------*/ 
+.Navigation{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.Navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+    
+.Navigation li{
+    float: left;
+}
+.Navigation li a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    color: black;   
+}
+
+.Navigation li a:hover {
+    background-color: #706165;
+    color: white;
+    cursor: pointer;
+}
+
+.Navigation .active {
+    background-color: #706165;
+    color: white;
+}
+
+/*-----Navigation---------*/ 
+/*-----Contact Form---------*/
+
+.contacttitle{
+    margin-top: 50px;
+    color: #706165;
+    transition: all 4s ease-in-out;
+}
+.contacttitle h2{
+    font-size: 50px;
+}
+
+
+.formtype{
+    width: 600px;
+    border: dotted #706165;;
+    outline: none;
+    color: #706165;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+input{
+    height: 45px
+
+}
+
+.formsubmit{
+    font-family: 'Playfair Display', serif;
+    background-color:  #706165;
+    border-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+
+
+}
+.formsubmit:hover{
+    background-color: white;
+    color: #706165;
+    cursor: pointer;
+    
+}
+/*-----Contact Form---------*/
+
+/*-----Footer---------*/     
+
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0px;
+    box-sizing: border-box ;
+    background-color: white;
+}
+
+.innerfooter{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+  
+.innerfooter .logocontainer{
+    width: 33%;
+    float: left;
+    height: 100%;
+    display: block;
+ 
+}
+ .innerfooter .logocontainer img{
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 11%;
+
+}
+ 
+.innerfooter .footerthird1{
+    width: 33% -20px;
+    float: left;;
+    height: 100%; 
+}
+    
+  
+.innerfooter .footerthird1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.innerfooter .footerthird1 a{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  
+  
+}
+
+.innerfooter .footerthird1 li{
+    display: inline-block;
+    padding: 0px 10px;;
+    text-align: center;
+}
+  
+  
+  
+.innerfooter .footerthird1 a:hover {
+    color:#706165;
+}
+.innerfooter .footerthird{
+    width: 33% -20px;
+    float: left;;
+    height: 100%; 
+    margin-left: 11%;
+}
+    
+
+  
+.innerfooter .footerthird h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.innerfooter .footerthird a{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  
+  
+}
+
+.innerfooter .footerthird li{
+    display: inline-block;
+    padding: 0px 10px;;
+    text-align: center;
+}
+  
+  
+  
+.innerfooter .footerthird a:hover {
+    color:#706165;
+}
+
+
+@media(max-width: 900px){
+    .footer .innerfooter{
+      width: 90%;
+    }
+    .innerfooter .logocontainer,
+    .innerfooter .footerthird1,
+    .innerfooter .footerthird{
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .innerfooter .logocontainer img{
+        margin: 0;
+    }
+    .contactform{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Navigation li{   
+        width: 100%;
+        padding: 0;
+      }
+    }
+@media screen and (max-width: 700px){
+    .formtype{
+        width: 75%;
+    }
+}

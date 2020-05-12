@@ -1,0 +1,299 @@
+body {
+    background-color: rgb(247, 215, 220);
+    font-family: 'Playfair Display', serif; 
+    margin-bottom: 0px;
+}
+.Title { 
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #a78071;
+    border: 10px solid #a78071;
+    padding: 0px;
+    border-image: url(../images/) 25 round;
+    border-width: 20px;
+}
+.Subtitle{ 
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px;
+    
+}
+.Navigation{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding-bottom: 20px;
+}
+.Navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+/*Navigation*/  
+.Navigation li{
+    float: left;
+}
+.Navigation li a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    color: black;   
+}
+
+.Navigation li a:hover {
+    background-color: #706165;
+    color: white;
+}
+
+.Navigation .active {
+    background-color: #706165;
+    color: white;
+}
+
+* {
+ box-sizing: border-box;
+}
+  
+  /* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%; 
+}
+  
+  /* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+  
+  /* Fake image */
+
+.afimg{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;   
+    text-align: center; 
+}
+.humansimg{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center; 
+}
+  .racingrainimg{
+    width: 100%;
+    padding: 20px;
+    display: inline-block; 
+    text-align: center; 
+  }
+  .bnwimg{
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center; 
+  }
+  .blogimage{
+    max-width: 100%;
+    text-align: center; 
+}
+  /* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+    }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+ 
+/*Follow Me*/
+.card li{
+    display: inline-block;
+    padding: 0px 10px;;
+    text-align: center;
+}
+.card li a{
+    color: black;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.card li a:hover {
+    color:#706165;
+    cursor: pointer;
+}
+/*Footer*/
+footer{
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0px;
+    box-sizing: border-box ;
+    background-color: white;
+}
+
+.innerfooter{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+  
+.innerfooter .logocontainer{
+    width: 33%;
+    float: left;
+    height: 100%;
+    display: block;
+ 
+}
+ .innerfooter .logocontainer img{
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 11%;
+
+}
+ 
+.innerfooter .footerthird1{
+    width: 33% -20px;
+    float: left;;
+    height: 100%; 
+}
+    
+  
+.innerfooter .footerthird1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.innerfooter .footerthird1 a{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  
+  
+}
+
+.innerfooter .footerthird1 li{
+    display: inline-block;
+    padding: 0px 10px;;
+    text-align: center;
+}
+  
+  
+  
+.innerfooter .footerthird1 a:hover {
+    color:#706165;
+}
+.innerfooter .footerthird{
+    width: 33% -20px;
+    float: left;;
+    height: 100%; 
+    margin-left: 11%;
+}
+    
+
+  
+.innerfooter .footerthird h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.innerfooter .footerthird a{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+  
+  
+}
+
+.innerfooter .footerthird li{
+    display: inline-block;
+    padding: 0px 10px;;
+    text-align: center;
+}
+  
+  
+  
+.innerfooter .footerthird a:hover {
+    color:#706165;
+}
+  
+@media(max-width: 900px){
+    .footer .innerfooter{
+        width: 90%;
+      }
+      .innerfooter .logocontainer,
+      .innerfooter .footerthird1,
+      .innerfooter .footerthird{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .innerfooter .logocontainer img{
+          margin: 0;
+      }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+@media screen and (max-width: 900px) {
+      .Navigation li{   
+        width: 100%;
+        padding: 0;
+      }
+    }
+
